@@ -1,10 +1,11 @@
+import AllRoutes from "./Routes/AllRoutes";
+import "./styles.css";
 
-function App() {
+export default function App() {
   return (
-    <div>
-      
+    <div className="App">
+      <AllRoutes />
     </div>
   );
 }
 
-export default App;

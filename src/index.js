@@ -1,9 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
+import { createRoot } from "react-dom/client";
+import App from "./App";
+import { BrowserRouter } from "react-router-dom";
+import AuthContextProvider from "./Context/AuthContext";
+import { ChakraProvider } from '@chakra-ui/react';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
 root.render(
-    <App />
+  <ChakraProvider toastOptions={{ defaultOptions: { position: 'top' } }}>
+    <BrowserRouter>
+      <AuthContextProvider>
+        <App />
+      </AuthContextProvider>
+    </BrowserRouter>
+  </ChakraProvider>
 );
-
