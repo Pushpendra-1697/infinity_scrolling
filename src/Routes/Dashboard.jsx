@@ -5,7 +5,7 @@ import UserComponent from "../Components/UserComponent";
 import Loading from "../Components/Loading";
 import Error from "../Components/Error";
 
-let userDetails = JSON.parse(localStorage.getItem('userDetails')) || null;
+let userDetails = JSON.parse(localStorage.getItem('userDetails')) || "";
 function Dashboard() {
   const { logoutUser } = useContext(AuthContext);
   const [card, setCard] = useState([]);

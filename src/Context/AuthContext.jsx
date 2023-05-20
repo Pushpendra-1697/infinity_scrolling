@@ -10,6 +10,7 @@ function AuthContextProvider({ children }) {
     };
     const logoutUser = () => {
         setIsAuth(false);
+        localStorage.removeItem('userDetails');
     };
 
     const value = { isAuth, loginUser, logoutUser };
