@@ -22,5 +22,4 @@ https://infinity-scrolling-bay.vercel.app
 ![Screenshot (279)](https://github.com/Pushpendra-1697/infinity_scrolling/assets/104748364/0adaca9b-b781-4719-a3d6-589ca9cbb5e8)
 ![Screenshot (281)](https://github.com/Pushpendra-1697/infinity_scrolling/assets/104748364/17f26f7c-c2ff-422d-8594-4fc35c05a607)
 ![Screenshot (282)](https://github.com/Pushpendra-1697/infinity_scrolling/assets/104748364/5abd64c3-2612-445a-9ddc-3ca72feda70d)
-![Screenshot (280)](https://github.com/Pushpendra-1697/infinity_scrolling/assets/104748364/8f69f5e8-3b4c-4ae0-909f-54793a591f53)
 ![Screenshot (283)](https://github.com/Pushpendra-1697/infinity_scrolling/assets/104748364/a5b8b757-6785-48f0-ba38-657be4701ec6)
