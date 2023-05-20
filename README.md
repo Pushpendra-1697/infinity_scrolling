@@ -9,6 +9,8 @@ Clone the Repository from Github. Then do the following steps:
     npm install
     
     npm run start
+    (or)
+    npm start
 ```
 # Tech Stack:
 React.js, react-router-dom, chakra-ui, react-icons.
