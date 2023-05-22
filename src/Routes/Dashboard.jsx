@@ -43,6 +43,7 @@ function Dashboard() {
   }, [page]);
 
   useEffect(() => {
+    window.onload = handleInfiniteScroll();
     window.addEventListener('scroll', handleInfiniteScroll);
     return () => window.removeEventListener('scroll', handleInfiniteScroll); // cleanup function
   }, []);
