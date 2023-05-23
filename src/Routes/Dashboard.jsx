@@ -31,7 +31,9 @@ function Dashboard() {
     try {
       if (window.innerHeight + document.documentElement.scrollTop + 1 >= document.documentElement.scrollHeight) {
         setLoading(true);
-        setPage((prev) => prev + 1);
+        setTimeout(() => {
+          setPage((prev) => prev + 1);
+        }, 1000);
       }
     } catch (err) {
       console.log(err);
@@ -43,7 +45,6 @@ function Dashboard() {
   }, [page]);
 
   useEffect(() => {
-    window.onload = handleInfiniteScroll();
     window.addEventListener('scroll', handleInfiniteScroll);
     return () => window.removeEventListener('scroll', handleInfiniteScroll); // cleanup function
   }, []);
